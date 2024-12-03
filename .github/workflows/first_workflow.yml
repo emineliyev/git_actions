@@ -10,3 +10,6 @@ jobs:
       - name: Command in Multiline
         run: |
           pip list
+      - name: Install Pillow
+        run:
+          pip install pillow
