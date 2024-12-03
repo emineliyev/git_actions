@@ -1,0 +1,11 @@
+name: Third WorkFlow
+on: push
+
+jobs:
+  run-first-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display some text
+        run: |
+          pwd
+          ls -a
